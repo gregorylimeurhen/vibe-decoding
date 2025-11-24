@@ -1,4 +1,10 @@
-datasets<4.0.0
-torch
+absl-py
+bert_score
+datasets
+evaluate
+python-dotenv
+pyyaml
+rouge_score
+sacrebleu
 tqdm
 transformers
