@@ -1,10 +1,4 @@
-absl-py
-bert_score
-datasets
-evaluate
-python-dotenv
-pyyaml
-rouge_score
-sacrebleu
-tqdm
-transformers>=4.37.0
+streamlit>=1.31.0
+torch>=2.1.0
+transformers>=4.36.0
+accelerate>=0.25.0
