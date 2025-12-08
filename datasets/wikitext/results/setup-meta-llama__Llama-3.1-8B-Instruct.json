@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2025-12-08T14:45:54.438936Z",
+  "seed": 42,
+  "device": "cuda",
+  "python": "3.12.3",
+  "torch": "2.8.0+cu128",
+  "transformers": "4.57.3",
+  "datasets": "4.4.1",
+  "model_processed": "meta-llama/Llama-3.1-8B-Instruct",
+  "lambdas": [
+    -5.0,
+    0.0,
+    1.0,
+    5.0
+  ],
+  "dtype_requested": "torch.bfloat16",
+  "dataset": {
+    "id": "Salesforce/wikitext",
+    "config": "wikitext-2-v1",
+    "split": "validation",
+    "max_rows": 1000
+  }
+}

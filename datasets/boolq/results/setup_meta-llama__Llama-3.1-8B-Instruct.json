@@ -1,0 +1,27 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "dataset_name": "google/boolq",
+  "split": "validation",
+  "alphas": [
+    -5.0,
+    0.0,
+    1.0,
+    5.0
+  ],
+  "max_rows": 0,
+  "num_examples_evaluated": 3270,
+  "random_seed": 42,
+  "device": "cuda",
+  "vibe_method": "Label scoring with sequential vibe-adjusted token log-probabilities for labels 'yes' and 'no'.",
+  "label_texts_by_name": {
+    "yes": " yes",
+    "no": " no"
+  },
+  "library_versions": {
+    "python": "3.11.10",
+    "torch": "2.4.1+cu124",
+    "transformers": "torch"
+  },
+  "runtime_seconds": 224.55276536941528,
+  "remarks": "meta-llama/Llama-3.1-8B-Instruct evaluated on BoolQ using vibe decoding over label strings."
+}
