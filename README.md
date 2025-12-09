@@ -1,9 +1,5 @@
 # vibe-decoding
 
-```
-pip install -r requirements.txt
-```
-
 ## Runpod Setup
 1. Open Command Prompt.
 2. Enter the following.
