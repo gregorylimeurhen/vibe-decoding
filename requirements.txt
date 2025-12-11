@@ -1,5 +1,6 @@
 accelerate
 datasets
+hf_transfer
 numpy
 rich
 torch
